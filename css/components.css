@@ -1,0 +1,133 @@
+
+.components section {
+    margin: 0 0 30px;
+}
+.components{
+    background: #141414;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.components h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #141414;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     text-shadow: 0 1px 0 #fff;
+}
+
+
+ul {
+    list-style-type: none;
+}
+.character-list li{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 2.2em;
+    text-shadow: 0 1px 0 #fff;
+}
+.radical-icon{
+    margin-right: 0.25em;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    width: 1.8em;
+    height: 1.8em;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.8em;
+    text-align: center;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 30%);
+    vertical-align: top;
+    border-radius: 3px;
+    background-color: #e98b3ef8;
+    background-image: linear-gradient(to bottom,rgb(230, 34, 44) 0%,#e98b3ef8 100%);
+    background-repeat: repeat-x;
+
+}
+
+.radicals1::after{
+   content: "+"; 
+    margin: 0 0.8em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 0 1px 0 #fff;
+}
+.character-list a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.character-list span{
+    margin-right: 0.25em;
+    font-size: 24px;
+}
+.reading{
+    background: #141414;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.reading h2{
+    padding-top: 170px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #141414;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     text-shadow: 0 1px 0 #fff;
+
+}
+.span4 h3{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 0 #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.kanji__container h2{
+    font-size:40px;
+
+}
+.kanji__container h3{
+    font-size:30px;
+
+}
+.kanji__container p{
+    font-size:20px;
+}
+.Vcharacter ul{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+    list-style-type: circle;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+} 
+.Vcharacter li{
+    line-height: 1.4em;
+    display: block;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 30%);
+    text-align: -webkit-match-parent;
+    list-style-type: circle;
+}
