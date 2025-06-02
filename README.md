@@ -29,5 +29,5 @@ The site includes a **fully functional registration system** built with PHP, all
 1. **Clone or Download the Repository**:
 
    ```bash
-   git clone https://github.com/your-repo/HSGrad-Project.git
+   git clone https://github.com/Grit-in/HSGrad-Project
    cd HSGrad-Project
